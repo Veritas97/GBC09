@@ -7,8 +7,8 @@ void NaturalNum(int num1, int num2)
 {
     if (num1 > num2)
     {
-        Console.Write($"{num2} ");
         NaturalNum(num1, num2 + 1);
+        Console.Write($"{num2} ");
     }
     
     if (num1 < num2)
